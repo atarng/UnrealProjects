@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{F7B3A690-4EFD-40F9-6858-A5894B6F0F95}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "BatteryCollector",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		},
+		{
+			"Name": "GearVR",
+			"Enabled": false
+		}
+	]
+}
